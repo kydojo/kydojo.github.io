@@ -164,6 +164,10 @@ body {
 	width: 70%;
 }
 
+#pre-button-text {
+	font-size: .8em;
+}
+
 .btn-jumbo {
 	background-color: #636466;
 	outline-color: #3f3f3f;
