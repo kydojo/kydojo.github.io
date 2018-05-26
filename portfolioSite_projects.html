@@ -1,0 +1,154 @@
+<!--
+	Kyle Johnson - Final Project
+	CS 290 - Spring 2018
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kyle D Johnson - Projects</title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="siteResources/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="siteResources/favicon-16x16.png" sizes="16x16" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="portfolioSite.js"></script>
+	<link rel="stylesheet" type="text/css" href="portfolioSite.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  	<div class="container">
+	    	<!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+		      	<a class="navbar-brand" href="portfolioSite.html"><i class="fas fa-code"></i> Kyle D Johnson</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+		      	<ul class="nav navbar-nav">
+				    <li class="navList"><a href="portfolioSite_projects.html" id="active-projects">Projects</a></li>
+				    <li class="navList"><a href="portfolioSite_professional.html">Experience</a></li>
+				    <li class="navList"><a href="portfolioSite_education.html">Education</a></li>
+				    <!-- <li class="navList"><a href="portfolioSite_personal.html">Personal</a></li> -->
+		      	</ul>
+		      
+			    <!-- External links -->
+			    <ul class="nav navbar-nav navbar-right">
+			        <li><a href="https://github.com/kydojo/CS-290.git" target="_blank"><i class="fab fa-github-square fa-2x" class="tooltip" data-toggle="gitTooltip"></i></a></li>
+			        <li><a href="https://www.linkedin.com/in/mrkylejohnson/" target="_blank"><i class="fab fa-linkedin fa-2x" class="tooltip" data-toggle="linkedTooltip"></i></a></li>
+			        <li><a href="https://angel.co/kdjohnson" target="_blank"><i class="fab fa-angellist fa-2x" class="tooltip" data-toggle="angelTooltip"></i></a></li>
+			        <li><a href="http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1974489" target="_blank"><i class="fas fa-graduation-cap fa-2x" class="tooltip" data-toggle="professorTooltip"></i></a></li>
+			      	<li><a href="siteResources/Kyle Johnson Resume 12_24_2017.pdf" target="_blank"><i class="fas fa-file-pdf" class="tooltip" data-toggle="resumeTooltip"></i></a></li>
+			      	<li><a href="mailto:kyledjohnson@hotmail.com?subject=Inquiry%20via%20KyleDJohnson.net"><i class="far fa-envelope fa-2x" class="tooltip" data-toggle="emailTooltip"></i></a></li>
+			    </ul>
+		    </div><!-- /.navbar-collapse -->
+	  	</div><!-- /.container-fluid -->
+	</nav>
+
+	<!-- Page content -->
+	<div class="container">
+		<div class="jumbotron jumbotron-fluid center-block">
+			<div class="jumbo-container">
+				<h1>Projects</h1>
+				<p><br>"Work hard, be kind, and amazing things will happen."</p>
+				<p class="author">- Conan O'Brien</p>
+				<hr class="horizLine">
+				<p>To see more of my work, please request access<br>to my <i>private</i> Github repository by contacting me.</p>
+					<a href="mailto:kyledjohnson@hotmail.com?subject=Inquiry%20via%20KyleDJohnson.net" class="btn btn-lg btn-jumbo" role="button">Contact Me</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<!-- Ant Project Row -->
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="project-left-containers">
+					<div class="jumbotron jumbotron-fluid center-block" id="ant-jumbotron">
+						<div class="project-description">
+							<h3 class="ant-description">Langton's Ant (C++)</h3>
+							<h4 class="ant-description">Langton's ant is a two-dimensional universal Turing machine with a very simple set of rules but complex emergent behavior.</h4>
+							<h4 class="ant-description">There are only two rules that govern the ant's movement:
+								<ul>
+									<li>At a white square, turn 90° right, flip the color of the square, move forward one unit.</li>
+									<li>At a black square, turn 90° left, flip the color of the square, move forward one unit.</li>
+								</ul>
+							</h4>
+							<h4 class="ant-description">This project was my first in-depth foray into <b>object-oriented</b> design. The individual cells that the ant traverses are objects
+														and actually receive the ant (also an object), as the critter follows his logic.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			 <div class="col-lg-5">
+				<img src="siteResources/antGIF_Final.gif" id="ant-gif">
+			</div>
+		</div>
+
+		<!-- Interview Game Project Row -->
+		<div class="row">
+			<div class="col-md-5">
+				<div class="project-description">
+					<img src="siteResources/interviewGamePic.JPG" id="interview-pic">
+				</div>
+			</div>
+			 <div class="col-md-7">
+					<div>
+					<div class="jumbotron jumbotron-fluid center-block ml-auto" id="interview-jumbotron">
+						<div class="project-description">
+							<h3 class="interview-description">The Interview (C++)</h3>
+							<h4 class="interview-description">The Interview is a one-player, text-based game where the player has to conquer a quirky interview process
+															  to land the software developer job of his/her dreams.</h4>
+							<h4 class="interview-description">The game area is composed of a series of pointer-linked nodes, forming a 3-dimensional "linked structure".</h4>
+							<h4 class="interview-description">Each node represents a game area (maybe a lobby, an office, or a coffee bar) where the player must answer questions
+															  in an effort to gain favor with his prospective employers.</h4>
+							<h4 class="interview-description">Make the right decisions or answer questions favorably to gain an advantage throughout the interview process.</h4>
+							<h4 class="interview-description">Impress the big boss to get the job offer! A less-enthused manager might just ghost you...</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Website Project Row -->
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="container">
+					<div class="jumbotron jumbotron-fluid center-block" id="site-jumbotron">
+						<div class="project-description">
+							<h3 class="site-description">KyleDJohnson.net (URL NYI) (HTML/CSS/Javascript)</h3>
+							<h4 class="site-description">This site is my first complete web development product.</h4>
+							<h4 class="site-description">It's a work-in-progress, but I think that it showcases my current ability to work the front-end of web development.</h4>
+							<h4 class="site-description">I hope to be able to incorporate more server-side functionality soon. Enjoy!</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="site-description">
+					<img src="siteResources/siteGIF_Final.gif" id="site-gif">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
