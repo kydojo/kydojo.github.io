@@ -1,2 +1,2 @@
 # kydojo.github.io
-My personal website
+Welcome to the source code for my personal website. Feel free to look around.
